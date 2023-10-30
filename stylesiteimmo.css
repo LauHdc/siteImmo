@@ -1,0 +1,53 @@
+body {margin: 0; font-family: 'Lato', sans-serif;}
+
+h1,h2,h3,h4 {font-family: 'Source Sans Pro', sans-serif; text-transform: uppercase;}
+
+/* Header */
+
+header {display: flex; justify-content: space-around;}
+
+.adresse {display: flex; padding-top: 4em;}
+.adresse p {margin: 0; margin-left: 1em;}
+.adresse small {color: #888}
+
+#top-bar {display: flex; justify-content: space-between; background: #576c29; color: #f1f1f1; padding: 0 3em; margin-top: -3em;}
+
+/* Présentation */
+
+#presentation {display: flex; justify-content: center; background: url(Sources-site-immo/images/featured_bg.png) repeat center center rgba(0,0,0,0.1); padding: 2em;}
+
+#presentation article {flex: 0 1 20em; margin: 1%; text-align: center; background: #fff;}
+
+#presentation hr {border-style: solid;border-width: 2px; width: 4em; border-color: #C7C896;}
+
+#presentation p {padding: 0 1em; color: #888; font-size: 0.8em;}
+
+#presentation h3 {padding-top: 1em; letter-spacing: 0.1em}
+
+#presentation img {margin-bottom: -1em;}
+
+/* Services */
+
+.titre {text-align: center;}
+.titre h3 {font-size: 2em;}
+.titre p {font-size: 0.9em; color: #888; margin-top: -1em;}
+
+#services {display: flex; justify-content: space-around; padding: 3em 0;}
+
+.bloc-services {text-align: center;}
+
+#services p {margin: 0 3em; text-align: center; font-size: 0.9em; color: #888}
+
+/* Infos */
+
+#infos {display: flex; justify-content: center; background: #ccc; padding-top: 2em; padding-bottom: 2em; position: relative;}
+#infos div {flex: 0 1 20%;}
+
+.info {display: flex;}
+.info p {color: #888; font-size: 0.9em; margin: 0; line-height: 2em; margin-left: 1em;}
+
+.logo-bas {position: absolute; top: -0.1em;}
+
+/* Footer */
+
+footer {text-align: center; background: #576c29; color: #f1f1f1; padding: 1em;}
